@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable-v24/ic_baseline_email_selected_24.xml" value="0.263" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable-v24/ic_baseline_lock_seleckted_24.xml" value="0.263" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable-v24/selected_drawable_icon_password.xml" value="0.263" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/back_add_to_my_list.xml" value="0.352" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/back_badge.xml" value="0.352" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/back_dialog_fragments.xml" value="0.281" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/back_interests.xml" value="0.3485" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/back_login.xml" value="0.205" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/back_logout_fragment.xml" value="0.35" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/back_rating.xml" value="0.352" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/background_checked_login.xml" value="0.205" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/background_color_login_services.xml" value="0.263" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/background_input.xml" value="0.3015" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/calendar_tab.xml" value="0.35" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/color_back_interest.xml" value="0.3485" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/color_back_interest_unchecked.xml" value="0.3485" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/color_tab.xml" value="0.352" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/home_tab.xml" value="0.35" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.333" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.263" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.333" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/ic_baseline_more_horiz_24.xml" value="0.333" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.352" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/image_shadowed.xml" value="0.352" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/list_tab.xml" value="0.35" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/main_button_background.xml" value="0.263" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/profile_tab.xml" value="0.35" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/selected_drawable_icon.xml" value="0.263" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/selected_icon_nickname.xml" value="0.35" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/selector_background_login.xml" value="0.205" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/drawable/shape_login.xml" value="0.205" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/activity_main.xml" value="0.283203125" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/activity_splash.xml" value="0.31979166666666664" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_anime_screen.xml" value="0.25625" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_change_email.xml" value="0.2546875" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_change_password.xml" value="0.24077868852459017" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_contact_us.xml" value="0.4" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_download.xml" value="0.32155797101449274" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_edit_nickname.xml" value="0.1864754098360656" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_edit_profile.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_faq.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_fill_profile.xml" value="0.3188405797101449" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_forgot_password.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_help_center.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_home.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_interests.xml" value="0.264" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_login.xml" value="0.3194444444444444" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_logout.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_mylist.xml" value="0.32155797101449274" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_new_episodes_release.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_notification_settings.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_notifications.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_privacy_policy.xml" value="0.264" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_profile.xml" value="0.32155797101449274" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_register_screen.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_release_calendar.xml" value="0.32155797101449274" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_search.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_sign_up.xml" value="0.25625" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_splash.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_tabs.xml" value="0.264" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_top_100_anime.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/fragment_top_hits_anime.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/framgent_top_100_anime.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/item_snackbar.xml" value="0.25625" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/layout_anime_main.xml" value="0.25625" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/nitification_settings.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/search_fragment.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/layout/top_hits_anime_home.xml" value="0.536" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/menu/tabs_menu.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/vhane/AndroidStudioProjects/animex/app/src/main/res/menu/toolbar_tabs_menu.xml" value="0.25625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

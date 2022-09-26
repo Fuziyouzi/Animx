@@ -43,6 +43,7 @@ class FragmentHome: BaseFragment<FragmentHomeBinding>(
         val adapter = AnimeAdapter(Anam.lsit1)
         binding.topHitsList.adapter = adapter
 
+
         vm.anime.observeEvent(viewLifecycleOwner){
         }
         vm.observe().observeEvent(viewLifecycleOwner){
