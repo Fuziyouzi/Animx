@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/home_graph"
+        android:title="@string/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:id="@id/search_graph"
+        android:title="@string/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        />
+    <item android:id="@id/release_calendar_graph"
+        android:title="@string/calendar"
+        android:icon="@drawable/ic_baseline_calendar_month_24"/>
+    <item android:id="@id/my_list_graph"
+        android:title="@string/my_list"
+        android:icon="@drawable/ic_baseline_bookmark_border_24"/>
+    <item android:id="@id/profile_graph"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_baseline_person_outline_24"/>
+
+</menu>

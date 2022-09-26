@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_graph"
+    app:startDestination="@id/fragmentSplash">
+
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.example.animex.presenter.login.FragmentLogin"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentSignUp"
+            app:destination="@id/fragmentSignUp"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popUpTo="@id/fragmentLogin"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentTabs"
+            app:destination="@id/fragmentTabs"
+            app:popUpTo="@id/fragmentLogin"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentForgotPassword"
+            app:destination="@id/fragmentForgotPassword"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popUpTo="@id/fragmentLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSignUp"
+        android:name="com.example.animex.presenter.signup.FragmentSignUp"
+        tools:layout="@layout/fragment_sign_up">
+        <action
+            android:id="@+id/action_fragmentSignUp_to_fragmentInterests"
+            app:destination="@id/fragmentInterests"
+            app:popUpTo="@id/fragmentSignUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentInterests"
+        android:name="com.example.animex.presenter.signup.FragmentInterests"
+        android:label="@string/choose_your_interest"
+        tools:layout="@layout/fragment_interests">
+        <action
+            android:id="@+id/action_fragmentInterests_to_fragmentTabs"
+            app:destination="@id/fragmentTabs"
+            app:popUpTo="@id/fragmentSplash"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTabs"
+        android:name="com.example.animex.presenter.FragmentTabs"
+        tools:layout="@layout/fragment_tabs">
+        <action
+            android:id="@+id/action_fragmentTabs_to_fragmentNewEpisodesRelease"
+            app:destination="@id/fragmentNewEpisodesRelease" />
+        <action
+            android:id="@+id/action_fragmentTabs_to_fragmentTopHitsAnime"
+            app:destination="@id/fragmentTopHitsAnime" />
+        <action
+            android:id="@+id/action_fragmentTabs_to_fragmentNotifications"
+            app:destination="@id/fragmentNotifications" />
+        <action
+            android:id="@+id/action_fragmentTabs_to_fragmentTop100Anime"
+            app:destination="@id/fragmentTop100Anime" />
+        <action
+            android:id="@+id/action_fragmentTabs_to_fragmentEditProfile"
+            app:destination="@id/fragmentEditProfile"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/fragmentTabs"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_fragmentTabs_to_fragmentNotificationSettings"
+            app:destination="@id/fragmentNotificationSettings"
+            app:popUpTo="@id/fragmentTabs" />
+        <action
+            android:id="@+id/action_fragmentTabs_to_fragmentPrivacyPolicy"
+            app:destination="@id/fragmentPrivacyPolicy"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/fragmentTabs" />
+        <action
+            android:id="@+id/action_fragmentTabs_to_fragmentHelpCenter"
+            app:destination="@id/fragmentHelpCenter" />
+        <action
+            android:id="@+id/action_fragmentTabs_to_fragmentAnime"
+            app:destination="@id/fragmentAnime" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentForgotPassword"
+        android:name="com.example.animex.presenter.login.FragmentForgotPassword"
+        android:label="@string/forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/fragmentSplash"
+        android:name="com.example.animex.presenter.login.FragmentSplash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_fragmentSplash_to_fragmentLogin"
+            app:destination="@id/fragmentLogin"
+
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popUpTo="@id/fragmentSplash"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentNewEpisodesRelease"
+        android:name="com.example.animex.presenter.home.newepisodes.FragmentNewEpisodesRelease"
+        android:label="@string/new_episodes_releases"
+        tools:layout="@layout/fragment_new_episodes_release">
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentNotifications"
+        android:name="com.example.animex.presenter.home.mottification.FragmentNotifications"
+        android:label="@string/notification"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/fragmentTopHitsAnime"
+        android:name="com.example.animex.presenter.home.hits.FragmentTopHitsAnime"
+        android:label="@string/top_hits_anime"
+        tools:layout="@layout/fragment_top_hits_anime">
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTop100Anime"
+        android:name="com.example.animex.presenter.home.top100.FragmentTop100Anime"
+        android:label="@string/top_100_anime"
+        tools:layout="@layout/fragment_top_100_anime" />
+    <fragment
+        android:id="@+id/fragmentEditProfile"
+        android:name="com.example.animex.presenter.profile.editprofile.FragmentEditProfile"
+        android:label="@string/edit_profile"
+        tools:layout="@layout/fragment_edit_profile">
+        <action
+            android:id="@+id/action_fragmentEditProfile_to_fragmentNickname"
+            app:destination="@id/fragmentNickname"
+            app:popUpTo="@id/fragmentEditProfile" />
+        <action
+            android:id="@+id/action_fragmentEditProfile_to_fragmentEmail"
+            app:destination="@id/fragmentEmail"
+            app:popUpTo="@id/fragmentEditProfile" />
+        <action
+            android:id="@+id/action_fragmentEditProfile_to_fragmentChangePassword"
+            app:destination="@id/fragmentChangePassword"
+            app:popUpTo="@id/fragmentEditProfile" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentNotificationSettings"
+        android:name="com.example.animex.presenter.profile.notificationsettings.FragmentNotificationSettings"
+        android:label="@string/notification_settings" />
+    <fragment
+        android:id="@+id/fragmentPrivacyPolicy"
+        android:name="com.example.animex.presenter.profile.privacypolicy.FragmentPrivacyPolicy"
+        android:label="@string/privacy_policy" />
+    <fragment
+        android:id="@+id/fragmentHelpCenter"
+        android:name="com.example.animex.presenter.profile.helpcenter.FragmentHelpCenter"
+        android:label="@string/help_center" />
+    <fragment
+        android:id="@+id/fragmentNickname"
+        android:name="com.example.animex.presenter.profile.editprofile.nickname.FragmentChangeNickname"
+        android:label="@string/change_nickname" />
+    <fragment
+        android:id="@+id/fragmentEmail"
+        android:name="com.example.animex.presenter.profile.editprofile.email.FragmentChangeEmail"
+        android:label="@string/change_email" />
+    <fragment
+        android:id="@+id/fragmentChangePassword"
+        android:name="com.example.animex.presenter.profile.editprofile.password.FragmentChangePassword"
+        android:label="@string/change_password" />
+    <fragment
+        android:id="@+id/fragmentAnime"
+        android:name="com.example.animex.presenter.anime.FragmentAnime"
+        android:label=" " />
+</navigation>

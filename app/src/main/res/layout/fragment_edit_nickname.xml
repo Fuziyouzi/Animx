@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15sp"
+    android:layout_marginHorizontal="@dimen/border_margin"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nickName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/back_login"
+        android:drawableStart="@drawable/selected_icon_nickname"
+        android:drawablePadding="15dp"
+        android:hint="@string/nickname"
+        android:inputType="textCapWords"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/you_can_use_a_z_0_9_and_underscores_minimum_length_is_5_characters"
+        android:textColor="@color/text"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/main_button_background"
+        android:text="Change"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

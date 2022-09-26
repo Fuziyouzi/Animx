@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainC">#0E9E42</color>
+    <color name="main">#11D256</color>
+    <color name="purple_700">#11D256</color>
+    <color name="teal_200">#11D256</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="primaryO">#181A20</color>
+    <color name="primaryS">#181A20</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text">#9E9E9E</color>
+    <color name="helpColor">#1F222B</color>
+    <color name="transparent">@android:color/transparent</color>
+</resources>

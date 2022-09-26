@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="@color/primaryS"
+    android:paddingHorizontal="@dimen/border_padding"
+    android:paddingTop="15dp"
+    tools:context="com.example.animex.presenter.mylist.FragmentMyList"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start|center"
+            android:background="@color/primaryS"
+            android:src="@drawable/logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="40dp"
+            android:text="@string/my_list"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/searchImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end|center"
+            android:src="@drawable/ic_baseline_more_horiz_24" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/myListContainer"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="125dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/my_list"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:textColor="@color/main"
+            android:text="@string/your_list_is_empty"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="@string/it_seems_that_you_haven_t_added_any_anime_to_the_list"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

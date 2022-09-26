@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/release_calendar_graph"
+    app:startDestination="@id/fragmentReleaseCalendar">
+
+    <fragment
+        android:id="@+id/fragmentReleaseCalendar"
+        android:name="com.example.animex.presenter.releasecalendar.FragmentReleaseCalendar"
+        android:label="@string/release_calendar"
+        tools:layout="@layout/fragment_release_calendar" />
+</navigation>

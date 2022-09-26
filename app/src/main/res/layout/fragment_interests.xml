@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/primaryS"
+    android:paddingTop="15dp"
+    tools:context="com.example.animex.presenter.signup.FragmentInterests">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/border_margin"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center"
+                android:background="@color/primaryS"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="40dp"
+                android:text="@string/choose_your_interest"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/choose_your_interests_and_get"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/action"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/action"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/drama"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/drama"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/comedy"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/comedy"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/ecchi"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/adventure"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/mecha"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/romance"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/science"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/music"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/school"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/seinen"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/shoujo"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/fantasy"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/mystery"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/horror"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/vampire"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/issekai"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/shounen"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/television"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/superhero"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/magic"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/game"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:background="@drawable/back_interests"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/slice_of_life"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/back_login"
+            android:gravity="center"
+            android:text="@string/skip"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/continueBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/main_button_background"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
