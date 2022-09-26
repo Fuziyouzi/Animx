@@ -44,6 +44,9 @@ class FragmentHome: BaseFragment<FragmentHomeBinding>(
         binding.topHitsList.adapter = adapter
 
 
+
+
+
         vm.anime.observeEvent(viewLifecycleOwner){
         }
         vm.observe().observeEvent(viewLifecycleOwner){
