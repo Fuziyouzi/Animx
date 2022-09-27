@@ -1,16 +1,14 @@
 package com.example.animex.presenter.main
 
 import android.os.Bundle
-import android.widget.ImageView
-import android.widget.ProgressBar
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.FragmentContainerView
 import androidx.navigation.NavController
 import androidx.navigation.NavDestination
 import androidx.navigation.fragment.NavHostFragment
 import com.example.animex.R
-import com.example.animex.base.visible
+import com.example.animex.core.observeEvent
+import com.example.animex.core.visible
 import com.example.animex.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.regex.Pattern
@@ -19,11 +17,12 @@ import java.util.regex.Pattern
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityMainBinding
     private val vm: MainViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
 
@@ -42,26 +41,24 @@ class MainActivity : AppCompatActivity() {
 
     private fun launch(navController: NavController) {
         val graph = navController.navInflater.inflate(R.navigation.main_graph)
-        vm.isSignedIn.observe(this) { boolean ->
+        vm.observeState().observeEvent(this) { boolean ->
             if (boolean) {
                 graph.setStartDestination(R.id.fragmentTabs)
                 navController.graph = graph
-                visibility()
             } else {
                 graph.setStartDestination(R.id.fragmentSplash)
                 navController.graph = graph
-                visibility()
+
+            }.also {
+                with(binding) {
+                    imageMain.visible()
+                    progress.visible()
+                    fragmentContainer.visible()
+                }
             }
         }
-
     }
 
-
-    private fun visibility() {
-        findViewById<ImageView>(R.id.imageMain).visible(false)
-        findViewById<ProgressBar>(R.id.progress).visible(false)
-        findViewById<FragmentContainerView>(R.id.fragmentContainer).visible(true)
-    }
 
 
     private fun getRootNavController(): NavController {
@@ -75,11 +72,11 @@ class MainActivity : AppCompatActivity() {
         NavController.OnDestinationChangedListener { _, destination, arguments ->
             if (destination.label != null) {
                 prepareDefaultToolbar(destination, arguments)
-            } else if(destination.label == " "){
+            } else if (destination.label == " ") {
                 supportActionBar?.show()
                 supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-            }else{
+            } else {
                 supportActionBar?.hide()
             }
         }
@@ -112,6 +109,5 @@ class MainActivity : AppCompatActivity() {
         matcher.appendTail(title)
         return title.toString()
     }
-
 
 }

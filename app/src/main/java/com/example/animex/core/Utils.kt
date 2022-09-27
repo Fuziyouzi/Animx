@@ -1,13 +1,11 @@
-package com.example.animex.base
+package com.example.animex.core
 
 import android.util.Patterns
 import android.view.View
-import com.example.animex.core.EmailNotMatchException
-import com.example.animex.core.EmptyFieldException
-import com.example.animex.core.PasswordMismatchException
 
-fun View.visible(isVisible: Boolean) {
-    visibility = if (isVisible) View.VISIBLE else View.GONE
+
+fun View.visible() {
+    visibility = if (visibility == View.GONE) View.VISIBLE else View.GONE
 }
 
 

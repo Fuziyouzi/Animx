@@ -1,10 +1,6 @@
 package com.example.animex.data.room
 
 import android.graphics.Bitmap
-import com.example.animex.base.checkEmail
-import com.example.animex.base.checkEmails
-import com.example.animex.base.checkPass
-import com.example.animex.base.empty
 import com.example.animex.core.*
 import com.example.animex.data.settings.UserLoginSettings
 import com.example.animex.domain.AccountRepository
